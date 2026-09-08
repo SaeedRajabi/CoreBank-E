@@ -1,0 +1,22 @@
+## Visual Studio / .NET
+
+bin/
+obj/
+.vs/
+*.cache
+*.log
+
+# NuGet
+*.nupkg
+packages/
+.nuget/packages/
+project.lock.json
+
+# .NET Core
+artifacts/
+
+# Secrets / local settings
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
