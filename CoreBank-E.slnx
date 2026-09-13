@@ -1,1 +1,8 @@
-<Solution />
+<Solution>
+  <Folder Name="/Core/">
+    <Project Path="Core/CoreBank.ApplicationService/CoreBank.ApplicationService.csproj" Id="3491cc97-549f-4986-a8e9-40963a9c4c7e" />
+    <Project Path="Core/CoreBank.Domain/CoreBank.Domain.csproj" Id="277586c5-a0c8-4cfd-a7ce-617dc4a34892" />
+    <Project Path="Core/CoreBank.Infrastructure/CoreBank.Infrastructure.csproj" Id="ab9d7315-ef03-4de7-aacc-915499c9d4d0" />
+    <Project Path="Core/CoreBank.UI/CoreBank.UI.csproj" />
+  </Folder>
+</Solution>

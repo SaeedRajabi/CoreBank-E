@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
+﻿using CoreBank.UI.BLL;
 
 namespace CoreBank.UI.Forms
 {
@@ -13,6 +7,14 @@ namespace CoreBank.UI.Forms
         public SplashForm()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            Role role = new Role(textBox1.Text, textBox2.Text);
+            RoleService roleService = new RoleService();
+            roleService.CreateRole(role);
         }
     }
 }
