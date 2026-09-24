@@ -67,6 +67,7 @@
             Controls.Add(button1);
             Name = "SplashForm";
             Text = "SplashForm";
+            Load += SplashForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
