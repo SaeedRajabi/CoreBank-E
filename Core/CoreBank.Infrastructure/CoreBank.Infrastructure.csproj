@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CoreBank.ApplicationService\CoreBank.ApplicationService.csproj" />
+    <ProjectReference Include="..\CoreBank.Domain\CoreBank.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
